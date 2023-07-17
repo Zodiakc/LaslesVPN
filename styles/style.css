@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #0b132a;
+}
+a,
+button {
+    cursor: pointer;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 10px;
+}
+
+.title__section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header__logo-block {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.header__logo {
+    object-fit: cover;
+    width: 30px;
+}
+.header__title {
+    font-size: 1.3rem;
+}
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+.header__btn {
+    color: #f53855;
+    background-color: white;
+    border: 1px solid #f53855;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.title-block {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    justify-content: space-between;
+    width: 100%;
+}
+.title-block__img {
+    width: 80%;
+    object-fit: cover;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+.info__title {
+    font-size: 3rem;
+}
+.info__btn {
+    background-color: #f53838;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: 30px 23px 32px -5px rgba(245, 56, 56, 0.32);
+}
+.stats {
+    display: flex;
+
+    align-items: center;
+    padding: 50px 0;
+}
+.stats__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 33.333%;
+    justify-content: center;
+}
+.stats__item:not(:last-child) {
+    border-right: 2px solid #eeeff2;
+}
+
+.stats__img {
+    max-width: 60px;
+}
+.stats__title {
+    font-size: 1.5rem;
+}
+/*Features*/
+.features__section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features__img {
+    max-width: 50%;
+}
+.features__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.features__title {
+    font-size: 2rem;
+}
+.features__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.features__item {
+    position: relative;
+}
+.features__item::before {
+    content: "✓";
+    position: absolute;
+    color: #eeeff2;
+    top: -2px;
+    left: -40px;
+    background-color: #2fab73;
+    border-radius: 50%;
+    padding: 2px 6px;
+}
+/*Prices section*/
+.prices {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.prices__title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
+    gap: 20px;
+}
+.prices__title {
+    font-size: 2rem;
+}
+.prices__title-box p {
+    text-align: center;
+}
+.prices__items {
+    display: flex;
+    gap: 10px;
+}
+.prices__item {
+    height: 60vh;
+    border: 2px solid #eeeff2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.prices__list-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.prices__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.prices__list li {
+    position: relative;
+}
+.prices__list li::before {
+    content: "✓";
+    color: #2fab73;
+    position: absolute;
+    top: -2px;
+    left: -20px;
+}
+.prices__img {
+    max-width: 50%;
+}
+.prices__select-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.prices__price {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.prices__btn {
+    color: #f53838;
+    border: 2px solid #f53838;
+    border-radius: 20px;
+    padding: 10px 40px;
+    background-color: white;
+}
+.prices__plan {
+    font-size: 1.5rem;
+}
