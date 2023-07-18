@@ -11,6 +11,8 @@ button {
     margin: 0 auto;
     max-width: 1440px;
     padding: 0 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .title__section {
@@ -224,4 +226,105 @@ button {
 }
 .prices__plan {
     font-size: 1.5rem;
+}
+/*Customer section*/
+.customer {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.customer__slider {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+.feedback {
+    border: 2px solid #eeeff2;
+    border-radius: 10px;
+    flex: 0 0 calc(33.3333% - 50px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feedback__img {
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.feedback__name-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feedback__img-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.feedback__name {
+    font-size: 1.2rem;
+}
+.feedback__raiting {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.feedback__raiting img {
+    max-width: 20px;
+}
+.customers__arrows {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+}
+.customers__arrow {
+    color: #f53838;
+    font-size: 2rem;
+    border: 2px solid #f53838;
+    padding: 0px 5px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.customer__title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.customer__title {
+    font-size: 2rem;
+}
+
+.subscribe {
+    background-color: #eeeff2;
+    box-shadow: 0px 5px 14px -7px rgba(34, 60, 80, 0.6);
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.subscribe__text-block h6 {
+    font-size: 1.8rem;
+}
+.subscribe__text-block {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.subscribe__btn {
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #f53838;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
