@@ -467,6 +467,15 @@ button {
     .prices {
         height: 100%;
     }
+    .prices__img {
+        max-width: 30%;
+    }
+    .prices__list li {
+        font-size: 0.8rem;
+    }
+    .prices__price {
+        font-size: 1rem;
+    }
     .footer {
         flex-direction: column-reverse;
         gap: 30px;
@@ -500,5 +509,12 @@ button {
     }
     .subscribe__btn {
         padding: 5px 20px;
+    }
+    .customer__title {
+        font-size: 1.2rem;
+    }
+    .customer__text {
+        font-size: 1rem;
+        text-align: center;
     }
 }
